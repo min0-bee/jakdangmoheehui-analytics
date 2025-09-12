@@ -1,0 +1,89 @@
+# --- OS ---
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# --- Editors/IDE ---
+.vscode/
+.idea/
+.history/
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.dist/
+build/
+.eggs/
+
+# --- Environments & secrets ---
+.venv/
+venv/
+env/
+ENV/
+.python-version
+.env
+.env.*           # .env.local 등
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+.jupyter/lab/workspaces/
+
+# --- Data / Artifacts (예: DVC/LFS로 관리 권장) ---
+data/
+datasets/
+inputs/
+outputs/
+logs/
+models/
+checkpoints/
+artifacts/
+reports/figures/
+!**/.gitkeep      # 빈 폴더 유지용
+
+# --- ML tooling ---
+mlruns/          # MLflow
+wandb/
+tensorboard/
+.lightgbm_debug.log
+
+# --- DVC ---
+.dvc/cache/
+*.dvc.lock
+
+# --- Files often large ---
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+*.joblib
+*.pkl
+*.pickle
+*.npz
+*.npy
+
+# --- Images/Binaries (보통 LFS 권장) ---
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.pdf
+
+# --- Keep project configs tracked (DON'T ignore) ---
+# requirements.txt
+# environment.yml
+# pyproject.toml
+# setup.cfg

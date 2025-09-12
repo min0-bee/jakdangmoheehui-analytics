@@ -1,0 +1,37 @@
+# 텍스트 파일은 저장 시 LF로 정규화
+* text=auto eol=lf
+
+# OS별 실행 스크립트
+*.sh  text eol=lf
+*.bash text eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# 주피터 노트북/JSON류는 텍스트로 취급(개행 정규화)
+*.ipynb text eol=lf
+*.json  text eol=lf
+*.yml   text eol=lf
+*.yaml  text eol=lf
+*.csv   text eol=lf
+*.tsv   text eol=lf
+*.md    text eol=lf
+*.py    text eol=lf
+
+# 바이너리는 개행 변환 금지
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+*.parquet binary
+*.feather binary
+*.h5 binary
+*.hdf5 binary
+*.pt binary
+*.pth binary
+*.ckpt binary
+*.joblib binary
+*.pkl binary
+*.npz binary
+*.npy binary
