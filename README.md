@@ -1,2 +1,5 @@
-# jakdangmoheehui-analytics
-작당모희희
+# SME Early Warning Project (작당모희희)
+
+소상공인의 휴·폐업 위험을 사전에 감지하는 조기경보 모델을 개발합니다.  
+팀명: **작당모희희**
+
