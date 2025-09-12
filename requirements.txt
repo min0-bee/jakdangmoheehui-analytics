@@ -1,0 +1,48 @@
+# Python version (guide only)
+python==3.10
+
+# --- Core / IO ---
+numpy==1.26.4
+pandas==2.3.1
+pyarrow==21.0.0
+openpyxl==3.1.5
+
+# --- Visualization ---
+matplotlib==3.10.5
+seaborn==0.13.2
+plotly==6.3.0
+wordcloud==1.9.4
+
+# --- Classic ML ---
+scikit-learn==1.7.1
+xgboost
+lightgbm
+statsmodels==0.14.5
+
+# --- Deep Learning ---
+# TensorFlow 2.15 on Windows/CPU (tensorflow -> tensorflow-intel 의존)
+tensorflow==2.15.0
+tensorboard
+# PyTorch (CPU 기본; GPU는 별도 휠 필요)
+torch==2.8.0
+
+# --- HF Ecosystem (DL/NLP) ---
+transformers==4.56.1
+accelerate==1.10.1
+huggingface-hub==0.34.4
+tokenizers==0.22.0
+safetensors
+
+# --- Jupyter (Lab/Notebook/Kernels/Widgets) ---
+jupyterlab
+notebook
+ipykernel
+ipywidgets
+
+# --- Utils ---
+tqdm
+pyyaml
+python-dotenv
+requests
+graphviz
+pydot
