@@ -37,16 +37,23 @@ ENV/
 .jupyter/lab/workspaces/
 
 # --- Data / Artifacts (예: DVC/LFS로 관리 권장) ---
-data/
-datasets/
-inputs/
-outputs/
-logs/
-models/
-checkpoints/
-artifacts/
-reports/figures/
-!**/.gitkeep      # 빈 폴더 유지용
+data/**
+!data/.gitkeep
+
+models/**
+!models/.gitkeep
+
+checkpoints/**
+!checkpoints/.gitkeep
+
+outputs/**
+!outputs/.gitkeep
+
+logs/**
+!logs/.gitkeep
+
+reports/figures/**
+!reports/figures/.gitkeep
 
 # --- ML tooling ---
 mlruns/          # MLflow
